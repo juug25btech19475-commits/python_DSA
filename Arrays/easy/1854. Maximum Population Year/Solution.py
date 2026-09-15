@@ -27,7 +27,7 @@
 #     1 <= logs.length <= 100
 #     1950 <= birthi < deathi <= 2050
 
- class Solution:
+class Solution:
     def maximumPopulation(self, logs):
         max_people = 0
         answer = 0
