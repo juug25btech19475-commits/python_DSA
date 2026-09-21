@@ -29,6 +29,7 @@
 
 class Solution(object):
     def matrixReshape(self, mat, r, c):
+<<<<<<< HEAD
         if len(mat) * len(mat[0]) != r * c:
             return mat
 
@@ -44,3 +45,18 @@ class Solution(object):
             ans.append(nums[i:i+c])
 
         return ans
+=======
+        """
+        :type mat: List[List[int]]
+        :type r: int
+        :type c: int
+        :rtype: List[List[int]]
+        """
+        ans=[]
+        for row in range(len(mat)):
+            for col in range(len(mat)):
+               ans.append(mat[row][col])
+        return ans 
+
+            
+>>>>>>> 55467f02df48b046a4050269b5071aee4d578153
